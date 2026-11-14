@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "cd \"$workspaceRoot\" ; if ($?) { g++ -std=c++17 -I include main.cpp src/*.cpp -o main } ; if ($?) { .\\main }"
+    },
+    "code-runner.runInTerminal": true
+}
